@@ -13,7 +13,6 @@ export default function Result(props) {
   });
   return <div className="w-full grid md:grid-cols-4 gap-5">{boxes}</div>;
 }
-
 const Box = (props) => {
   const IMGPATH = "https://image.tmdb.org/t/p/w1280";
 
